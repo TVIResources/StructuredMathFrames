@@ -1,15 +1,15 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
-REM Export every component defined in structured_math_updated.json.
+REM Export every component defined in structured_math_tiles.json.
 REM Usage: export_stl_updated.bat [path\to\model.scad] [output_directory]
 
 set "SCRIPT_DIR=%~dp0"
 set "SCAD_FILE=%~1"
-if not defined SCAD_FILE set "SCAD_FILE=%SCRIPT_DIR%UEB_braille_alphabet_and_word_board.scad"
+if not defined SCAD_FILE set "SCAD_FILE=%SCRIPT_DIR%structured_math_tiles.scad"
 set "OUTPUT_DIR=%~2"
 if not defined OUTPUT_DIR set "OUTPUT_DIR=%SCRIPT_DIR%exported_stls"
-set "PARAM_FILE=%SCRIPT_DIR%structured_math_updated.json"
+set "PARAM_FILE=%SCRIPT_DIR%structured_math_tiles.json"
 set "COMPONENT_LIST=%TEMP%\openscad_components_%RANDOM%.txt"
 
 if not exist "%SCAD_FILE%" (

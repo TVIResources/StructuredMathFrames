@@ -7,7 +7,7 @@ Optimized version with customizer interface
 
 /* [Component Selection] */
 // Choose which component to render
-component = "none"; // [ none:None,  time_keeping_UEB:Time Keeping (UEB),  add_subtract_UEB:Addition/Subtraction (UEB),  division_UEB:Division (UEB),  multiplication_UEB:Multiplication (UEB),  operation_symbol_multiply_UEB:Multiply Symbol (UEB),  operation_symbol_add_UEB:Add Symbol (UEB),  operation_symbol_subtract_UEB:Subtract Symbol (UEB),  numbers_1_UEB:Number 1 (UEB),  numbers_2_UEB:Number 2 (UEB),  numbers_3_UEB:Number 3 (UEB),  numbers_4_UEB:Number 4 (UEB),  numbers_5_UEB:Number 5 (UEB),  numbers_6_UEB:Number 6 (UEB),  numbers_7_UEB:Number 7 (UEB),  numbers_8_UEB:Number 8 (UEB),  numbers_9_UEB:Number 9 (UEB),  numbers_0_UEB:Number 0 (UEB),  numbers_null:Number Null,  time_keeping_print:Time Keeping (Print),  add_subtract_print:Addition/Subtraction (Print),  division_print:Division (Print),  multiplication_print:Multiplication (Print),  operation_symbol_multiply_print:Multiply Symbol (Print),  operation_symbol_add_print:Add Symbol (Print),  operation_symbol_subtract_print:Subtract Symbol (Print),  numbers_1_print:Number 1 (Print),  numbers_2_print:Number 2 (Print),  numbers_3_print:Number 3 (Print),  numbers_4_print:Number 4 (Print),  numbers_5_print:Number 5 (Print),  numbers_6_print:Number 6 (Print),  numbers_7_print:Number 7 (Print),  numbers_8_print:Number 8 (Print),  numbers_9_print:Number 9 (Print),  numbers_0_print:Number 0 (Print),   division_Nemeth:Division (Nemeth),   operation_symbol_multiply_nemeth:Multiply Symbol (Nemeth),  operation_symbol_add_nemeth:Add Symbol (Nemeth),  operation_symbol_subtract_nemeth:Subtract Symbol (Nemeth),  numbers_1_nemeth:Number 1 (Nemeth),  numbers_2_nemeth:Number 2 (Nemeth),  numbers_3_nemeth:Number 3 (Nemeth),  numbers_4_nemeth:Number 4 (Nemeth),  numbers_5_nemeth:Number 5 (Nemeth),  numbers_6_nemeth:Number 6 (Nemeth),  numbers_7_nemeth:Number 7 (Nemeth),  numbers_8_nemeth:Number 8 (Nemeth),  numbers_9_nemeth:Number 9 (Nemeth),  numbers_0_nemeth:Number 0 (Nemeth), storage_bay:Storage Bay, storage_bay_case:Storage Bay Case]
+component = "none"; // [ none:None,  time_keeping_UEB:Time Keeping (UEB),  add_subtract_UEB:Addition/Subtraction (UEB),  division_UEB:Division (UEB),  multiplication_UEB:Multiplication (UEB),  operation_symbol_multiply_UEB:Multiply Symbol (UEB),  operation_symbol_add_UEB:Add Symbol (UEB),  operation_symbol_subtract_UEB:Subtract Symbol (UEB),  numbers_1_UEB:Number 1 (UEB),  numbers_2_UEB:Number 2 (UEB),  numbers_3_UEB:Number 3 (UEB),  numbers_4_UEB:Number 4 (UEB),  numbers_5_UEB:Number 5 (UEB),  numbers_6_UEB:Number 6 (UEB),  numbers_7_UEB:Number 7 (UEB),  numbers_8_UEB:Number 8 (UEB),  numbers_9_UEB:Number 9 (UEB),  numbers_0_UEB:Number 0 (UEB),  numbers_null:Number Null,  time_keeping_print:Time Keeping (Print),  add_subtract_print:Addition/Subtraction (Print),  division_print:Division (Print),  multiplication_print:Multiplication (Print),  operation_symbol_multiply_print:Multiply Symbol (Print),  operation_symbol_add_print:Add Symbol (Print),  operation_symbol_subtract_print:Subtract Symbol (Print),  numbers_1_print:Number 1 (Print),  numbers_2_print:Number 2 (Print),  numbers_3_print:Number 3 (Print),  numbers_4_print:Number 4 (Print),  numbers_5_print:Number 5 (Print),  numbers_6_print:Number 6 (Print),  numbers_7_print:Number 7 (Print),  numbers_8_print:Number 8 (Print),  numbers_9_print:Number 9 (Print),  numbers_0_print:Number 0 (Print),   division_Nemeth:Division (Nemeth),   operation_symbol_multiply_nemeth:Multiply Symbol (Nemeth),  operation_symbol_add_nemeth:Add Symbol (Nemeth),  operation_symbol_subtract_nemeth:Subtract Symbol (Nemeth),  numbers_1_nemeth:Number 1 (Nemeth),  numbers_2_nemeth:Number 2 (Nemeth),  numbers_3_nemeth:Number 3 (Nemeth),  numbers_4_nemeth:Number 4 (Nemeth),  numbers_5_nemeth:Number 5 (Nemeth),  numbers_6_nemeth:Number 6 (Nemeth),  numbers_7_nemeth:Number 7 (Nemeth),  numbers_8_nemeth:Number 8 (Nemeth),  numbers_9_nemeth:Number 9 (Nemeth),  numbers_0_nemeth:Number 0 (Nemeth), storage_bay:Storage Bay, storage_bay_case:Storage Bay Case,  letters_a_UEB:Letter A (UEB),  letters_b_UEB:Letter B (UEB),  letters_c_UEB:Letter C (UEB),  letters_d_UEB:Letter D (UEB),  letters_e_UEB:Letter E (UEB),  letters_f_UEB:Letter F (UEB),  letters_g_UEB:Letter G (UEB),  letters_h_UEB:Letter H (UEB),  letters_i_UEB:Letter I (UEB),  letters_j_UEB:Letter J (UEB),  letters_k_UEB:Letter K (UEB),  letters_l_UEB:Letter L (UEB),  letters_m_UEB:Letter M (UEB),  letters_n_UEB:Letter N (UEB),  letters_o_UEB:Letter O (UEB),  letters_p_UEB:Letter P (UEB),  letters_q_UEB:Letter Q (UEB),  letters_r_UEB:Letter R (UEB),  letters_s_UEB:Letter S (UEB),  letters_t_UEB:Letter T (UEB),  letters_u_UEB:Letter U (UEB),  letters_v_UEB:Letter V (UEB),  letters_w_UEB:Letter W (UEB),  letters_x_UEB:Letter X (UEB),  letters_y_UEB:Letter Y (UEB),  letters_z_UEB:Letter Z (UEB),  letters_space_UEB:Blank Space Tile,  letters_a_print:Letter A (Print), letters_b_print:Letter B (Print), letters_c_print:Letter C (Print), letters_d_print:Letter D (Print), letters_e_print:Letter E (Print), letters_f_print:Letter F (Print), letters_g_print:Letter G (Print), letters_h_print:Letter H (Print), letters_i_print:Letter I (Print), letters_j_print:Letter J (Print), letters_k_print:Letter K (Print), letters_l_print:Letter L (Print), letters_m_print:Letter M (Print), letters_n_print:Letter N (Print), letters_o_print:Letter O (Print), letters_p_print:Letter P (Print), letters_q_print:Letter Q (Print), letters_r_print:Letter R (Print), letters_s_print:Letter S (Print), letters_t_print:Letter T (Print), letters_u_print:Letter U (Print), letters_v_print:Letter V (Print), letters_w_print:Letter W (Print), letters_x_print:Letter X (Print), letters_y_print:Letter Y (Print), letters_z_print:Letter Z (Print), letters_space_print:Blank Space (Print), storage_bay_words:Word and Sentence Board (4 Rows),  storage_bay_words_case:Word and Sentence Board Case]
 
 /* [UEB Settings] */
 // Radius of UEB dots (mm)
@@ -39,6 +39,25 @@ hole_y_size = distance * 2 + 1;
 hole_z_size = 7;
 spacing = 7;
 raised_line_thickness = 2;
+
+module letter_print_tile(label) {
+  chars = ["", ""];
+  char_count = 2;
+
+  union() {
+    rotate([0,270,0])
+      UEB_str(chars, char_count);
+
+    rotate([90,180,270]) {
+      translate([6,-9,6])
+        linear_extrude(2)
+          text(label,
+               font="Arial",
+               size=8,
+               halign="center");
+    }
+  }
+}
 
 module letter(bitmap) {
   row_size = 2;
@@ -317,6 +336,8 @@ module UEB_char(char) {
        0,1] // 
   );
 
+  } else if (char == "" || char == " ") {
+    // Blank tile/cell: intentionally no raised dots.
   } else {
     echo("Invalid Character: ", char);
   }
@@ -524,6 +545,259 @@ module numbers_0_UEB() {
       UEB_str(chars, char_count);
   }
 }
+
+
+
+
+// =====================
+// UEB braille alphabet tiles
+// =====================
+/* [UEB braille alphabet] */
+module letters_a_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["a", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_b_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["b", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_c_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["c", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_d_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["d", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_e_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["e", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_f_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["f", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_g_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["g", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_h_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["h", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_i_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["i", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_j_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["j", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_k_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["k", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_l_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["l", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_m_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["m", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_n_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["n", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_o_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["o", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_p_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["p", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_q_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["q", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_r_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["r", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_s_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["s", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_t_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["t", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_u_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["u", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_v_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["v", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_w_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["w", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_x_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["x", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_y_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["y", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+module letters_z_UEB() {
+  // One raised-dot letter cell plus one blank cell on the standard tile.
+  chars = ["z", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+    }
+module letters_space_UEB() {
+  // A completely blank tile for separating words.
+  chars = ["", ""];
+  char_count = 2;
+  rotate([0, 270, 0])
+    UEB_str(chars, char_count);
+}
+
+// =====================
+// Print Letters
+// =====================
+module letters_a_print() { letter_print_tile("A"); }
+module letters_b_print() { letter_print_tile("B"); }
+module letters_c_print() { letter_print_tile("C"); }
+module letters_d_print() { letter_print_tile("D"); }
+module letters_e_print() { letter_print_tile("E"); }
+module letters_f_print() { letter_print_tile("F"); }
+module letters_g_print() { letter_print_tile("G"); }
+module letters_h_print() { letter_print_tile("H"); }
+module letters_i_print() { letter_print_tile("I"); }
+module letters_j_print() { letter_print_tile("J"); }
+module letters_k_print() { letter_print_tile("K"); }
+module letters_l_print() { letter_print_tile("L"); }
+module letters_m_print() { letter_print_tile("M"); }
+module letters_n_print() { letter_print_tile("N"); }
+module letters_o_print() { letter_print_tile("O"); }
+module letters_p_print() { letter_print_tile("P"); }
+module letters_q_print() { letter_print_tile("Q"); }
+module letters_r_print() { letter_print_tile("R"); }
+module letters_s_print() { letter_print_tile("S"); }
+module letters_t_print() { letter_print_tile("T"); }
+module letters_u_print() { letter_print_tile("U"); }
+module letters_v_print() { letter_print_tile("V"); }
+module letters_w_print() { letter_print_tile("W"); }
+module letters_x_print() { letter_print_tile("X"); }
+module letters_y_print() { letter_print_tile("Y"); }
+module letters_z_print() { letter_print_tile("Z"); }
+module letters_space_print() { letter_print_tile(" "); }
 
 
 module operation_symbol_multiply_nemeth() {
@@ -1732,6 +2006,41 @@ module storage_bay_case() {
 }
 
 
+
+
+// =====================
+// UEB Word/Sentence Board
+// Four rows, same thirteen-column layout and hole spacing as storage_bay.
+// =====================
+module storage_bay_words() {
+  translate([-2, -3, 0])
+    color("yellow")
+      cube([234, 174, 2], center = false);
+
+  difference() {
+    cube([230, 170, 7], center = false);
+
+    // Thirteen columns (i=-6..6), four centered rows.
+    translate([115, 87, 0]) {
+      for (i = [-6:6]) {
+        for (j = [-2:1]) {
+          translate([17 * i - 7, (j + 0.5) * 12, 3])
+            hole();
+        }
+      }
+    }
+  }
+}
+
+// Matching shallow lid for the four-row word/sentence board.
+module storage_bay_words_case() {
+  difference() {
+    cube([234, 200, 11], center = false);
+    translate([2, 2, 0])
+      cube([230, 196, 10], center = false);
+  }
+}
+
 // ===== CUSTOMIZER RENDERING LOGIC =====
 
 if (component == "time_keeping_UEB") {
@@ -1746,6 +2055,118 @@ if (component == "time_keeping_UEB") {
   storage_bay();
 } else if (component == "storage_bay_case") {
   storage_bay_case();
+} else if (component == "storage_bay_words") {
+  storage_bay_words();
+} else if (component == "storage_bay_words_case") {
+  storage_bay_words_case();
+} else if (component == "letters_a_UEB") {
+  letters_a_UEB();
+} else if (component == "letters_b_UEB") {
+  letters_b_UEB();
+} else if (component == "letters_c_UEB") {
+  letters_c_UEB();
+} else if (component == "letters_d_UEB") {
+  letters_d_UEB();
+} else if (component == "letters_e_UEB") {
+  letters_e_UEB();
+} else if (component == "letters_f_UEB") {
+  letters_f_UEB();
+} else if (component == "letters_g_UEB") {
+  letters_g_UEB();
+} else if (component == "letters_h_UEB") {
+  letters_h_UEB();
+} else if (component == "letters_i_UEB") {
+  letters_i_UEB();
+} else if (component == "letters_j_UEB") {
+  letters_j_UEB();
+} else if (component == "letters_k_UEB") {
+  letters_k_UEB();
+} else if (component == "letters_l_UEB") {
+  letters_l_UEB();
+} else if (component == "letters_m_UEB") {
+  letters_m_UEB();
+} else if (component == "letters_n_UEB") {
+  letters_n_UEB();
+} else if (component == "letters_o_UEB") {
+  letters_o_UEB();
+} else if (component == "letters_p_UEB") {
+  letters_p_UEB();
+} else if (component == "letters_q_UEB") {
+  letters_q_UEB();
+} else if (component == "letters_r_UEB") {
+  letters_r_UEB();
+} else if (component == "letters_s_UEB") {
+  letters_s_UEB();
+} else if (component == "letters_t_UEB") {
+  letters_t_UEB();
+} else if (component == "letters_u_UEB") {
+  letters_u_UEB();
+} else if (component == "letters_v_UEB") {
+  letters_v_UEB();
+} else if (component == "letters_w_UEB") {
+  letters_w_UEB();
+} else if (component == "letters_x_UEB") {
+  letters_x_UEB();
+} else if (component == "letters_y_UEB") {
+  letters_y_UEB();
+} else if (component == "letters_z_UEB") {
+  letters_z_UEB();
+} else if (component == "letters_space_UEB") {
+  letters_space_UEB();
+} else if (component == "letters_a_print") {
+  letters_a_print();
+} else if (component == "letters_b_print") {
+  letters_b_print();
+} else if (component == "letters_c_print") {
+  letters_c_print();
+} else if (component == "letters_d_print") {
+  letters_d_print();
+} else if (component == "letters_e_print") {
+  letters_e_print();
+} else if (component == "letters_f_print") {
+  letters_f_print();
+} else if (component == "letters_g_print") {
+  letters_g_print();
+} else if (component == "letters_h_print") {
+  letters_h_print();
+} else if (component == "letters_i_print") {
+  letters_i_print();
+} else if (component == "letters_j_print") {
+  letters_j_print();
+} else if (component == "letters_k_print") {
+  letters_k_print();
+} else if (component == "letters_l_print") {
+  letters_l_print();
+} else if (component == "letters_m_print") {
+  letters_m_print();
+} else if (component == "letters_n_print") {
+  letters_n_print();
+} else if (component == "letters_o_print") {
+  letters_o_print();
+} else if (component == "letters_p_print") {
+  letters_p_print();
+} else if (component == "letters_q_print") {
+  letters_q_print();
+} else if (component == "letters_r_print") {
+  letters_r_print();
+} else if (component == "letters_s_print") {
+  letters_s_print();
+} else if (component == "letters_t_print") {
+  letters_t_print();
+} else if (component == "letters_u_print") {
+  letters_u_print();
+} else if (component == "letters_v_print") {
+  letters_v_print();
+} else if (component == "letters_w_print") {
+  letters_w_print();
+} else if (component == "letters_x_print") {
+  letters_x_print();
+} else if (component == "letters_y_print") {
+  letters_y_print();
+} else if (component == "letters_z_print") {
+  letters_z_print();
+} else if (component == "letters_space_print") {
+  letters_space_print();
 } else if (component == "operation_symbol_multiply_UEB") {
   operation_symbol_multiply_UEB();
 } else if (component == "operation_symbol_add_UEB") {
